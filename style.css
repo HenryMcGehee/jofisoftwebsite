@@ -1,8 +1,11 @@
 * {
     margin: 0px;
     padding: 0px;
-    background-color: black;
-    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    background-color: #181818;
 }
 
 .logo{
@@ -10,13 +13,33 @@
     font-size: 50px;
 }
 
+h1, h2, h3, h4, p {
+    color: white;
+}
+
 a {
+    font-family: 'Staatliches', cursive;
     text-decoration: none;
     padding: 5px;
+    color: white;
+}
+
+
+.lineBreak{
+    height: 2px;
+    width: 20em;
+    background-color: grey;
+    margin: auto;
+    width: 50%;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+.info {
+    text-align: center;
+    padding-top: 5em;
 }
 
 .topBar{
@@ -24,7 +47,7 @@ a:hover {
     font-size: 30px;
     text-decoration: none;
     padding-top: 1em;
-    padding-bottom: 1em;
+    background-color: #181818;
 }
 
 .image{
