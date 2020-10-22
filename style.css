@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+
+.logo{
+    text-align: left;
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.topBar{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.bannerText {
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 5em;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.profile {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding-bottom: 10em;
+}
+
+.profileImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 30em;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.footer{
+    font-size: 20px;
+}
