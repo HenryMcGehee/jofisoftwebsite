@@ -29,7 +29,7 @@ a {
 
 .comingSoon{
     margin: 5px;
-    padding-top: 2em;
+    padding-top: 1em;
     background-color: black;
 }
 
@@ -52,6 +52,7 @@ p{
 .video {
     width: 50em;
     height: 25em;
+    z-index: -2;
 }
 
 .vidhole {
@@ -97,7 +98,8 @@ p{
     background-color: black;
     position: fixed;
     top: 0;
-    width: 100%
+    width: 100%;
+    z-index: 1;
 }
 
 .image{
