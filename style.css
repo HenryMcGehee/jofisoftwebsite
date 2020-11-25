@@ -7,7 +7,7 @@
 
 section {
     background-color: #181818;
-    margin-top: 3em;
+    margin-top: 4em;
 }
 
 .logo{
@@ -29,6 +29,7 @@ a {
 
 .comingSoon{
     margin: 5px;
+    padding-top: 2em;
     background-color: black;
 }
 
@@ -48,14 +49,24 @@ p{
     background-color: #181818;
 }
 
+.video {
+    width: 50em;
+    height: 25em;
+}
+
 .vidhole {
     position: absolute;
     top: 50%;
     left: 50%;    
     transform: translate(-50%, -50%);
     background-color: black;
-    padding: 2em 5em;
+    padding: 0 0 2em 0;
     min-width: 150px;
+}
+
+.vidHoleHome {
+    background-color: #181818;
+
 }
 
 .info {
@@ -64,6 +75,12 @@ p{
     padding-top: 5em;
     margin-left: 2em;
     margin-right: 2em;
+}
+
+.gameInfo {
+    text-align: center;
+    margin: auto;
+    max-width: 500px;
 }
 
 .GameInfo{
@@ -76,6 +93,7 @@ p{
     font-size: 30px;
     text-decoration: none;
     padding-top: 1em;
+    padding-bottom: 10px;
     background-color: black;
     position: fixed;
     top: 0;
@@ -96,12 +114,15 @@ p{
 .column {
     float: left;
     width: 50%;
-    margin-top: 5em;
+    margin-top: 4em;
     background-color: #181818;
 }
 
 .row{
     background-color: #181818;
+    max-width: 500px;
+    padding-bottom: 30em;
+    margin: auto;
 }
 
 .row:after {
@@ -113,23 +134,25 @@ p{
 .profile {
     text-align: center;
     margin: auto;
-    width: 50%;
+    width: 60%;
     padding-bottom: 10em;
     background-color: #181818;
 }
 
 .profileText{
-    padding: 1em;
-    border-radius: 1em;
+    width: 100%;
+    background-color: black;
 }
 
 .profileImg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: none;
     width: 100%;
-    border-radius: 30em;
-    background-color: #181818;
+    background-color: #202020;
+}
+
+.profileText {
+    position: absolute;
+    width: 50px;
 }
 
 .contact{
@@ -153,4 +176,37 @@ footer{
 
 .footer{
     font-size: 20px;
+}
+
+.fa {
+    text-decoration: none;
+}
+
+.fa:hover {
+opacity: 0.7;
+}
+  
+.fa-twitter {
+    width: 25px;
+}
+    
+.fa-youtube {
+    width: 40px;
+}
+
+.fa-itch {
+    width: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+    .vidhole {   
+       width: 300px;
+        background-color: black;
+        padding: 0 0 2em 0;
+    }
+
+    .video {
+        width: 100%;
+        height: 100%;
+    }
 }
