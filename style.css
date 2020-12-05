@@ -31,6 +31,7 @@ a {
     margin: 5px;
     padding-top: 1em;
     background-color: black;
+    text-align: left;
 }
 
 .lineBreak{
@@ -49,6 +50,11 @@ p{
     background-color: #181818;
 }
 
+.bottom{
+    background-color: black;
+    padding: 1em;
+}
+
 .video {
     width: 50em;
     height: 25em;
@@ -63,6 +69,8 @@ p{
     background-color: black;
     padding: 0 0 2em 0;
     min-width: 150px;
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
 
 .vidHoleHome {
@@ -76,12 +84,14 @@ p{
     padding-top: 5em;
     margin-left: 2em;
     margin-right: 2em;
+    max-width: 600px;
+    margin: auto;
 }
 
 .gameInfo {
     text-align: center;
     margin: auto;
-    max-width: 500px;
+    max-width: 600px;
 }
 
 .GameInfo{
@@ -141,20 +151,22 @@ p{
     background-color: #181818;
 }
 
-.profileText{
-    width: 100%;
-    background-color: black;
-}
+
 
 .profileImg {
-    margin: none;
+    margin: auto;
+    padding-left: 25px;
     width: 100%;
-    background-color: #202020;
+    background-color: #181818;
 }
 
 .profileText {
     position: absolute;
-    width: 50px;
+    width: 200px;
+}
+
+.aboutText{
+    background-color: #181818;
 }
 
 .contact{
@@ -210,5 +222,17 @@ opacity: 0.7;
     .video {
         width: 100%;
         height: 100%;
+    }
+
+    .profileText {
+        position: absolute;
+        width: 130px;
+    }
+
+    .profileImg {
+        margin: auto;
+        padding-left: 1px;
+        width: 100%;
+        background-color: #181818;
     }
 }
