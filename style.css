@@ -8,6 +8,7 @@
 section {
     background-color: #181818;
     margin-top: 4em;
+    margin-bottom: 40em;
 }
 
 .logo{
@@ -151,11 +152,15 @@ p{
     background-color: #181818;
 }
 
+.burger{
+    padding: 2em;
+}
+
 
 
 .profileImg {
     margin: auto;
-    padding-left: 25px;
+    
     width: 100%;
     background-color: #181818;
 }
